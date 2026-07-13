@@ -13,5 +13,6 @@ struct SignalistApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(.hiddenTitleBar)
     }
 }

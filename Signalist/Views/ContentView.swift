@@ -30,7 +30,11 @@ struct ContentView: View {
         .background(Color(nsColor: .windowBackgroundColor))
         .preferredColorScheme(appTheme.colorScheme)
         .toolbar {
-            ToolbarItem(placement: .automatic) {
+            ToolbarItem(placement: .navigation) {
+                Spacer()
+            }
+
+            ToolbarItem(placement: .primaryAction) {
                 themeMenu
             }
         }
