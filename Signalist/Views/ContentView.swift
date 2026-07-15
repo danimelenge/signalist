@@ -32,8 +32,8 @@ struct ContentView: View {
 
     // MARK: - Environment
 
-    @Environment(\.colorScheme)
-    private var systemColorScheme
+    @EnvironmentObject private var helpCenter: HelpCenter
+    @Environment(\.colorScheme) private var systemColorScheme
 
     // MARK: - Body
 
@@ -61,6 +61,15 @@ struct ContentView: View {
             }
 
             ToolbarItem(placement: .primaryAction) {
+                Button {
+                    showWhatsNew = true
+                } label: {
+                    Image(systemName: "sparkles")
+                }
+                .help("Ver novedades")
+            }
+
+            ToolbarItem(placement: .primaryAction) {
                 themeMenu
             }
         }
@@ -83,6 +92,9 @@ struct ContentView: View {
                 hasSeenWhatsNew = true
                 showWhatsNew = false
             }
+        }
+        .sheet(isPresented: $helpCenter.isShowingHelp) {
+            HelpView()
         }
     }
 
@@ -343,9 +355,11 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(HelpCenter())
 }
 
 #Preview("Dark") {
     ContentView()
+        .environmentObject(HelpCenter())
         .preferredColorScheme(.dark)
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A313007E999009A4423 /* HelpCenter.swift .swift */; };
+		11431A343007E9D6009A4423 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A333007E9D6009A4423 /* HelpView.swift */; };
 		11E57C483000373F006DE940 /* SignalistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C473000373F006DE940 /* SignalistApp.swift */; };
 		11E57C4A3000373F006DE940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C493000373F006DE940 /* ContentView.swift */; };
 		11E57C4C30003742006DE940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E57C4B30003742006DE940 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11431A313007E999009A4423 /* HelpCenter.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpCenter.swift .swift"; sourceTree = "<group>"; };
+		11431A333007E9D6009A4423 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		11E57C443000373F006DE940 /* Signalist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signalist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E57C473000373F006DE940 /* SignalistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalistApp.swift; sourceTree = "<group>"; };
 		11E57C493000373F006DE940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 				11E57C5C3000380B006DE940 /* ViewModels */,
 				11E57C57300037A3006DE940 /* MorseCode.swift */,
 				11F27A533001900600950561 /* WhatsNewFeature.swift .swift */,
+				11431A313007E999009A4423 /* HelpCenter.swift .swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 				11E57C60300039F0006DE940 /* Utilities */,
 				11E57C493000373F006DE940 /* ContentView.swift */,
 				11F27A553001905400950561 /* WhatsNewView.swift */,
+				11431A333007E9D6009A4423 /* HelpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,9 +196,11 @@
 				11E57C5E300038F0006DE940 /* MorseViewModel.swift in Sources */,
 				11E57C6230003A13006DE940 /* Theme.swift in Sources */,
 				11F27A563001905400950561 /* WhatsNewView.swift in Sources */,
+				11431A343007E9D6009A4423 /* HelpView.swift in Sources */,
 				11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */,
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
 				11E57C58300037A3006DE940 /* MorseCode.swift in Sources */,
+				11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

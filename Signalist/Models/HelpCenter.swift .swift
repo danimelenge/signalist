@@ -5,4 +5,8 @@
 //  Created by Daniel Melenge Rojas on 15/07/26.
 //
 
-import Foundation
+import SwiftUI
+
+final class HelpCenter: ObservableObject {
+    @Published var isShowingHelp = false
+}
