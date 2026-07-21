@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */; };
 		11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A313007E999009A4423 /* HelpCenter.swift .swift */; };
 		11431A343007E9D6009A4423 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A333007E9D6009A4423 /* HelpView.swift */; };
 		11E57C483000373F006DE940 /* SignalistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C473000373F006DE940 /* SignalistApp.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseSoundPlayer.swift; sourceTree = "<group>"; };
 		11431A313007E999009A4423 /* HelpCenter.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpCenter.swift .swift"; sourceTree = "<group>"; };
 		11431A333007E9D6009A4423 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		11E57C443000373F006DE940 /* Signalist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signalist.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				11E57C6130003A13006DE940 /* Theme.swift */,
+				11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				11E57C6230003A13006DE940 /* Theme.swift in Sources */,
 				11F27A563001905400950561 /* WhatsNewView.swift in Sources */,
 				11431A343007E9D6009A4423 /* HelpView.swift in Sources */,
+				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,
 				11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */,
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
 				11E57C58300037A3006DE940 /* MorseCode.swift in Sources */,

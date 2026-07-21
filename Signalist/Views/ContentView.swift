@@ -62,6 +62,18 @@ struct ContentView: View {
 
             ToolbarItem(placement: .primaryAction) {
                 Button {
+                    viewModel.isSoundEnabled.toggle()
+                    if !viewModel.isSoundEnabled {
+                        viewModel.soundPlayer.stop()
+                    }
+                } label: {
+                    Image(systemName: viewModel.isSoundEnabled ? "speaker.wave.2.fill" : "speaker.slash.fill")
+                }
+                .help(viewModel.isSoundEnabled ? "Silenciar sonido" : "Activar sonido")
+            }
+
+            ToolbarItem(placement: .primaryAction) {
+                Button {
                     showWhatsNew = true
                 } label: {
                     Image(systemName: "sparkles")
@@ -253,6 +265,17 @@ struct ContentView: View {
                 }
 
                 Spacer()
+
+                if viewModel.mode == .textToMorse && !viewModel.outputText.isEmpty {
+                    Button {
+                        viewModel.replayCurrentSound()
+                    } label: {
+                        Image(systemName: "play.circle")
+                    }
+                    .buttonStyle(.plain)
+                    .foregroundStyle(.blue)
+                    .help("Reproducir sonido")
+                }
 
                 if !viewModel.outputText.isEmpty {
                     Text("\(viewModel.outputText.count) caracteres")
