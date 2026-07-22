@@ -13,7 +13,7 @@ struct SignalistApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
                 .environmentObject(helpCenter)
         }
         .windowStyle(.hiddenTitleBar)

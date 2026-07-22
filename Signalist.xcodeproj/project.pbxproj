@@ -10,6 +10,10 @@
 		11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */; };
 		11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A313007E999009A4423 /* HelpCenter.swift .swift */; };
 		11431A343007E9D6009A4423 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A333007E9D6009A4423 /* HelpView.swift */; };
+		1156FA8D301128D9004E082C /* BrailleCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA8C301128D9004E082C /* BrailleCode.swift */; };
+		1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA8E3011296D004E082C /* BrailleViewModel.swift */; };
+		1156FA93301129D3004E082C /* BrailleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA92301129D3004E082C /* BrailleView.swift */; };
+		1156FA9530112A16004E082C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA9430112A16004E082C /* RootView.swift */; };
 		11E57C483000373F006DE940 /* SignalistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C473000373F006DE940 /* SignalistApp.swift */; };
 		11E57C4A3000373F006DE940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C493000373F006DE940 /* ContentView.swift */; };
 		11E57C4C30003742006DE940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E57C4B30003742006DE940 /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 		11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseSoundPlayer.swift; sourceTree = "<group>"; };
 		11431A313007E999009A4423 /* HelpCenter.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpCenter.swift .swift"; sourceTree = "<group>"; };
 		11431A333007E9D6009A4423 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		1156FA8C301128D9004E082C /* BrailleCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleCode.swift; sourceTree = "<group>"; };
+		1156FA8E3011296D004E082C /* BrailleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleViewModel.swift; sourceTree = "<group>"; };
+		1156FA92301129D3004E082C /* BrailleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleView.swift; sourceTree = "<group>"; };
+		1156FA9430112A16004E082C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		11E57C443000373F006DE940 /* Signalist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signalist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E57C473000373F006DE940 /* SignalistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalistApp.swift; sourceTree = "<group>"; };
 		11E57C493000373F006DE940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +101,7 @@
 				11E57C57300037A3006DE940 /* MorseCode.swift */,
 				11F27A533001900600950561 /* WhatsNewFeature.swift .swift */,
 				11431A313007E999009A4423 /* HelpCenter.swift .swift */,
+				1156FA8C301128D9004E082C /* BrailleCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				11E57C5D300038F0006DE940 /* MorseViewModel.swift */,
+				1156FA8E3011296D004E082C /* BrailleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -112,6 +122,8 @@
 				11E57C493000373F006DE940 /* ContentView.swift */,
 				11F27A553001905400950561 /* WhatsNewView.swift */,
 				11431A333007E9D6009A4423 /* HelpView.swift */,
+				1156FA92301129D3004E082C /* BrailleView.swift */,
+				1156FA9430112A16004E082C /* RootView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,11 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1156FA8D301128D9004E082C /* BrailleCode.swift in Sources */,
 				11E57C4A3000373F006DE940 /* ContentView.swift in Sources */,
 				11E57C5E300038F0006DE940 /* MorseViewModel.swift in Sources */,
 				11E57C6230003A13006DE940 /* Theme.swift in Sources */,
+				1156FA9530112A16004E082C /* RootView.swift in Sources */,
+				1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */,
 				11F27A563001905400950561 /* WhatsNewView.swift in Sources */,
 				11431A343007E9D6009A4423 /* HelpView.swift in Sources */,
+				1156FA93301129D3004E082C /* BrailleView.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,
 				11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */,
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
